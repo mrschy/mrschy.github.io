@@ -1,0 +1,33 @@
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,p{
+    font-size:xx-large;
+    color: #ECDFCC;
+    filter: drop-shadow(1px 1px 0px #A9A695);
+}
+
+body{
+    background-color: #6B7767;
+}
+
+.grid-container {
+    display: inline-grid;
+  }
+
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 1vh;
+  }
+
+img{
+    width: 225px;
+}
